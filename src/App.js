@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 // import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -9,9 +9,7 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
-
 function App() {
-
   const [links] = useState(["About Me", "Portfolio", "Contact", "Resume"]);
   const [activePage, setActivePage] = useState("About Me");
 
@@ -23,7 +21,10 @@ function App() {
         setActivePage={setActivePage}
       />
       <main>
-
+        {activePage === "About Me" && <About />}
+        {activePage === "Portfolio" && <Portfolio />}
+        {activePage === "Contact" && <Contact />}
+        {activePage === "Resume" && <Resume />}
       </main>
 
       <Footer />
