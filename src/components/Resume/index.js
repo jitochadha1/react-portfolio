@@ -1,14 +1,14 @@
 import React from "react";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Footer() {
+function Resume() {
 
     return (
-        <p>Footer</p>
+        <p>Resume</p>
     )
 }
 
 
 
 
-export default Footer;
+export default Resume;
