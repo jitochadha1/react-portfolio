@@ -40,3 +40,18 @@
 img {
   width: 100%;
 }
+
+iframe {
+  width: 100%;
+  padding: 20px;
+  height: calc(100vh - 56px);
+}
+
+.thumbnail {
+  width: 64px;
+}
+
+.centered {
+    height: calc(100vh - 100px);
+    align-items: center;
+}
