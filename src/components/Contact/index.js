@@ -1,14 +1,16 @@
-import React from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
+import {
+    Container,
+    Row,
+    Col
+} from 'react-bootstrap';
+import Contact from './Contact'
 
-function Contact() {
-
-    return (
-        <p>About</p>
-    )
-}
-
-
-
-
-export default Contact;
+export default () => (
+    <Container className="mt-3">
+        <Row>
+            <Col>
+                <Contact />
+            </Col>
+        </Row>
+    </Container>
+)

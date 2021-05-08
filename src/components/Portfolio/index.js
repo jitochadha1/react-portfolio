@@ -1,22 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Project from '../Project';
+import portfolioItems from './portfolio-items';
 
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Portfolio() {
-  const portfolioItems = [
-    {
-      title: "Title",
-      description: "...",
-      pictures: ["jungle.png"],
-    },
-    {
-      title: "Title",
-      description: "...",
-      pictures: ["jungle.png"],
-    },
-  ];
-
   return (
     <Container>
       <Row>
@@ -25,13 +14,9 @@ function Portfolio() {
         </Col>
       </Row>
       <Row>
-        {portfolioItems.map(({ title, description, pictures }) => (
-          <Col md="4">
-            {pictures.map((picture, index) => (
-              <img key={index} src={picture} />
-            ))}
-            <h5>{title}</h5>
-            <p>{description}</p>
+        {portfolioItems.map(project => (
+          <Col md="4" className="mb-2">
+            <Project {...project} />
           </Col>
         ))}
       </Row>
