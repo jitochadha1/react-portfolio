@@ -36,4 +36,4 @@ Feel free to reach out with any question you have about Jito's Portfolio!
 - GitHub: [jitochadha1](https://www.github.com/jitochadha1)
 - Email: [jitochadha@gmail.com](mailto:jitochadha@gmail.com)
 
-<img src="">
+<img src="build/portfolio.png">
