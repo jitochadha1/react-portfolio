@@ -7,8 +7,34 @@ function About() {
     return (
         <Container centered="true">
             <div className="text-center">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tortor sed tellus pulvinar tristique. Fusce auctor ornare magna. Vivamus malesuada turpis eu tincidunt volutpat. Aenean faucibus nunc commodo, ullamcorper diam ut, porta sem. Vestibulum eget nunc elementum, egestas nulla in, elementum velit. Curabitur sit amet luctus neque. Cras sit amet tortor auctor, laoreet arcu porttitor, congue odio. Suspendisse potenti.</p>
-                <p>Mauris sem mauris, ornare eu enim vitae, commodo cursus est. Suspendisse ligula neque, aliquet pellentesque lacus ac, luctus sodales justo. Nulla vitae ante sed tellus tempor tristique at in est. Quisque ut efficitur elit. Sed pharetra quis nibh et laoreet. Duis a sem quis neque vestibulum dictum. Maecenas lectus mi, pharetra sed fringilla et, ullamcorper non ante. Maecenas luctus sagittis interdum. Etiam in sagittis eros, sit amet dignissim enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sed auctor ante, vel vulputate nisi. Aenean condimentum volutpat eleifend. In porta nibh scelerisque odio ultrices pretium. Nam ultrices ligula id viverra finibus.</p>
+                <p>
+                
+                Hi I'm Jito and I like to builds things using hardware and software.
+                <br></br>
+                <br></br>
+                 
+                My day job is leading a team of data scientists, engineers and product visionaries 
+                to build and deploy AI-enabled workflows that result in automation and savings for various customers.
+                <br></br>
+                <br></br>
+                
+                I'm a full-stack app developer with a background in chemistry, biology and physics.
+                <br></br>
+                  
+                I build apps using the latest priciples of progressive web applications and typically utilize 
+                the MERNG stack (MongoDB, Express, React, Node and GraphQL).
+                <br></br>
+                <br></br>
+                
+                Reach out to met if you want to talk about your project and get some advice or get my team and I to 
+                provide you a proposal to build your application.
+                <br></br>
+                <br></br>
+                
+                In my free time I like to surf, hydrofoil, hang with friends/family, research current events of and learn about science and technology.
+                
+                
+                </p>
             </div>
         </Container>
     )
