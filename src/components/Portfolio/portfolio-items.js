@@ -1,5 +1,13 @@
 export default [
   {
+    title: "Film Grabber",
+    description:
+      "Search for movies, see trending movies and create a movie watchlist.",
+    pictures: ["search-trending.png"],
+    appLink: "https://hidden-gorge-77777.herokuapp.com/",
+    gitLink: "https://github.com/GRech17/film-grabber",
+  },
+  {
     title: "Trading News",
     description:
       "News on trendings stocks and cryptocurrencies. Easy access to in-depth financial statements for any company.",

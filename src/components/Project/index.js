@@ -30,3 +30,4 @@ function Project({ title, description, pictures, appLink, gitLink }) {
 
 
 export default Project;
+
